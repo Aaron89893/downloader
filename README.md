@@ -1,53 +1,31 @@
-# Bilibili High Quality & No-Watermark Downloader
+# ⚡ Downloader - Chrome Extension & Backend
 
-Tool tải video Bilibili tự động, không watermark, chất lượng cao nhất (hỗ trợ 1080p, 1080p60, 4K, 8K) sử dụng Python & yt-dlp engine.
-
-## 🚀 Tính năng nổi bật
-
-1. **Không Watermark**: Trực tiếp bóc tách luồng DASH gốc (video + audio), không bị dính logo như trên trình duyệt.
-2. **Chất lượng cao nhất**: Tải stream video & audio có bitrate cao nhất và ghép thành file `.mp4` hoàn chỉnh.
-3. **Tự động hóa**: Nhập danh sách link vào `urls.txt` và chỉ cần chạy `run.sh`.
-4. **Hỗ trợ Cookies.txt**: Mở khóa các độ phân giải 1080p60, 4K (2160p), 8K và âm thanh chuẩn Dolby/Hi-Res.
+Tải video HD (1080p) kèm phụ đề gốc từ **Bilibili, YouTube, TikTok, Douyin** vào một thư mục riêng biệt.
 
 ---
 
-## 🛠️ Hướng dẫn sử dụng
+## ⚡ Hướng Dẫn Nhanh (Quick Start)
 
-### 1. Thêm URL cần tải
-Mở file `urls.txt` và dán các đường dẫn video Bilibili vào (mỗi link một dòng). Hỗ trợ link thường, link b23.tv rút gọn, link phim/anime (bangumi).
+### 1. Khởi chạy Server (1-Click)
+- Nhấp đúp file **`run.bat`**
+- Server tự động cài đặt môi trường và chạy tại: `http://127.0.0.1:5000`
 
-```text
-https://www.bilibili.com/video/BV1xX4y1A76z
-https://b23.tv/xxxxxx
-```
-
-### 2. Chạy Tool
-Mở Terminal / Git Bash và chạy lệnh:
-
-```bash
-bash run.sh
-```
-
-Tool sẽ tự động:
-- Khởi tạo môi trường ảo Python (`venv`)
-- Cài đặt các thư viện phụ thuộc (`yt-dlp`)
-- Tải tất cả video trong `urls.txt` và lưu vào thư mục `downloads/`
+### 2. Cài đặt Chrome Extension
+1. Mở Chrome → Truy cập `chrome://extensions`
+2. Bật **Developer mode** (Góc trên bên phải)
+3. Nhấn **Load unpacked** → Chọn thư mục `./extension`
 
 ---
 
-## 💎 Cách mở khóa chất lượng 4K / 1080p60
-
-Mặc định Bilibili giới hạn chất lượng đối với người dùng chưa đăng nhập (Khách / Guest) ở mức 720p hoặc 1080p tiêu chuẩn.
-
-Để tải được **4K, 1080p60, 8K**:
-1. Đăng nhập tài khoản Bilibili trên trình duyệt (Chrome / Edge / Firefox).
-2. Dùng tiện ích mở rộng (Extension) như **Get cookies.txt LOCALLY** để xuất cookie của trang `bilibili.com`.
-3. Lưu file xuất ra thành tên `cookies.txt` và để cùng thư mục với script này.
-4. Chạy lại `bash run.sh`, tool sẽ tự nhận diện file `cookies.txt` và tải ở độ phân giải tối đa của tài khoản!
+## 🚀 Tính Năng Chính
+- **2 File Duy Nhất**: Tự động lưu 1 file Video (`.mp4`) và 1 file Phụ Đề Gốc (`.orig.srt`).
+- **Thư Mục Chuẩn**: Tự động gom 2 file vào thư mục mang mã ID Video (ví dụ: `BV1KS4y1i7zL/`).
+- **Bilibili Danmaku**: Tự bóc tách và giải nén 400+ câu phụ đề Danmaku.
+- **Tự Động Làm Sạch Bộ Nhớ**: Tự động xóa file tạm trên đĩa sau 60 giây.
 
 ---
 
-## 📌 Yêu cầu hệ thống
+## ⚙️ Lệnh Điều Khiển qua CMD
 
-- Python 3.8+
-- [FFmpeg](https://ffmpeg.org/) (đã thêm vào PATH hệ thống để ghép video & audio)
+- **Bật Server**: `run.bat`
+- **Tắt Server**: `taskkill /F /IM python.exe`

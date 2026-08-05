@@ -1,0 +1,772 @@
+[
+  {
+    "id": "task_1785913815_d79550",
+    "url": "https://www.douyin.com/video/7637475296233810873",
+    "title": "光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇",
+    "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/osFIwi5B9F3IpAwf9qbfbu1KquaBABi2owNEIk~tplv-dy-360p.jpeg?lk3s=138a59ce&x-expires=1787122800&x-signature=NyzW5ImGU%2BEw1waT%2FAhXL%2FWYQks%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=origin_cover&biz_tag=aweme_video&l=202608051510169C25BED2674DFDB31AD4",
+    "platform": "TikTok/Douyin",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 14:10:15",
+    "timestamp_raw": 1785913815.594665,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785913815_d79550_7637475296233810873.mp4?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.mp4",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785913815_d79550_7637475296233810873.orig.srt?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.orig.srt",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 14:10:15] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 14:10:15] Khởi tạo tác vụ tải video (1080p) từ: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 14:10:15] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 14:10:15] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 14:10:18] Tải stream hoàn tất. Đã trích xuất tiêu đề: '光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇'",
+      "[2026-08-05 14:10:18] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 14:10:19] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 14:10:19] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785913813_7c9b12",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 14:10:13",
+    "timestamp_raw": 1785913813.673923,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785913813_7c9b12_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785913813_7c9b12_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 14:10:13] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 14:10:13] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 14:10:13] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 14:10:13] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 14:10:21] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 14:10:21] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 14:10:22] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 14:10:22] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785913567_34d0dd",
+    "url": "https://www.douyin.com/video/7637475296233810873",
+    "title": "光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇",
+    "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/osFIwi5B9F3IpAwf9qbfbu1KquaBABi2owNEIk~tplv-dy-360p.jpeg?lk3s=138a59ce&x-expires=1787122800&x-signature=NyzW5ImGU%2BEw1waT%2FAhXL%2FWYQks%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=origin_cover&biz_tag=aweme_video&l=202608051506083E0038A2610E339B5C92",
+    "platform": "TikTok/Douyin",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 14:06:07",
+    "timestamp_raw": 1785913567.7587829,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785913567_34d0dd_7637475296233810873.mp4?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.mp4",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785913567_34d0dd_7637475296233810873.orig.srt?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.orig.srt",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 14:06:07] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 14:06:07] Khởi tạo tác vụ tải video (1080p) từ: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 14:06:07] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 14:06:07] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 14:06:10] Tải stream hoàn tất. Đã trích xuất tiêu đề: '光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇'",
+      "[2026-08-05 14:06:10] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 14:06:10] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 14:06:10] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785913560_e6bff6",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 14:06:00",
+    "timestamp_raw": 1785913560.303272,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785913560_e6bff6_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785913560_e6bff6_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 14:06:00] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 14:06:00] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 14:06:00] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 14:06:00] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 14:06:08] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 14:06:08] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 14:06:09] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 14:06:09] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785913174_d4e180",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:59:34",
+    "timestamp_raw": 1785913174.9457529,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785913174_d4e180_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785913174_d4e180_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:59:34] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:59:34] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:59:35] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:59:42] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:59:42] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:59:43] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:59:43] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912952_f28df8",
+    "url": "https://www.douyin.com/video/7637475296233810873",
+    "title": "光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇",
+    "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/osFIwi5B9F3IpAwf9qbfbu1KquaBABi2owNEIk~tplv-dy-360p.jpeg?lk3s=138a59ce&x-expires=1787119200&x-signature=KTQ070KXFffsf6jtCdMwD1a8V1I%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=origin_cover&biz_tag=aweme_video&l=20260805145552DF7B1DF336F1E9BCA11A",
+    "platform": "TikTok/Douyin",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:55:52",
+    "timestamp_raw": 1785912952.5143015,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912952_f28df8_7637475296233810873.mp4?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.mp4",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912952_f28df8_7637475296233810873.orig.srt?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.orig.srt",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:55:52] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:55:52] Khởi tạo tác vụ tải video (1080p) từ: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:55:52] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:55:52] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:55:54] Tải stream hoàn tất. Đã trích xuất tiêu đề: '光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇'",
+      "[2026-08-05 13:55:54] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:55:54] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:55:54] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912950_ab2b7d",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:55:50",
+    "timestamp_raw": 1785912950.2304947,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912950_ab2b7d_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912950_ab2b7d_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:55:50] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:55:50] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:55:50] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:55:50] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:55:57] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:55:57] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:55:57] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:55:57] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912755_ea5291",
+    "url": "https://www.douyin.com/video/7637475296233810873",
+    "title": "光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇",
+    "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/osFIwi5B9F3IpAwf9qbfbu1KquaBABi2owNEIk~tplv-dy-360p.jpeg?lk3s=138a59ce&x-expires=1787119200&x-signature=KTQ070KXFffsf6jtCdMwD1a8V1I%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=origin_cover&biz_tag=aweme_video&l=20260805145236E339EF1B64DF81740C99",
+    "platform": "TikTok/Douyin",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:52:35",
+    "timestamp_raw": 1785912755.8568501,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912755_ea5291_7637475296233810873.mp4?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.mp4",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912755_ea5291_7637475296233810873.orig.srt?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.orig.srt",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:52:35] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:52:35] Khởi tạo tác vụ tải video (1080p) từ: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:52:35] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:52:36] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:52:37] Tải stream hoàn tất. Đã trích xuất tiêu đề: '光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇'",
+      "[2026-08-05 13:52:37] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:52:37] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:52:38] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912752_c17e56",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:52:32",
+    "timestamp_raw": 1785912752.662486,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912752_c17e56_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912752_c17e56_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:52:32] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:52:32] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:52:32] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:52:32] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:52:38] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:52:38] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:52:38] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:52:38] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912732_f3badc",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:52:12",
+    "timestamp_raw": 1785912732.9708748,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912732_f3badc_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912732_f3badc_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:52:12] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:52:13] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:52:13] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:52:13] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:52:19] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:52:19] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:52:19] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:52:19] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912730_0688be",
+    "url": "https://www.douyin.com/video/7637475296233810873",
+    "title": "光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇",
+    "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/osFIwi5B9F3IpAwf9qbfbu1KquaBABi2owNEIk~tplv-dy-360p.jpeg?lk3s=138a59ce&x-expires=1787119200&x-signature=KTQ070KXFffsf6jtCdMwD1a8V1I%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=origin_cover&biz_tag=aweme_video&l=202608051452112E59882912223B541069",
+    "platform": "TikTok/Douyin",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:52:10",
+    "timestamp_raw": 1785912730.8511853,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912730_0688be_7637475296233810873.mp4?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.mp4",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912730_0688be_7637475296233810873.orig.srt?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.orig.srt",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:52:10] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:52:10] Khởi tạo tác vụ tải video (1080p) từ: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:52:11] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:52:11] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:52:13] Tải stream hoàn tất. Đã trích xuất tiêu đề: '光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇'",
+      "[2026-08-05 13:52:13] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:52:13] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:52:13] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912659_a7f6ae",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+    "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:50:59",
+    "timestamp_raw": 1785912659.852333,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912659_a7f6ae_dQw4w9WgXcQ.mp4?filename=dQw4w9WgXcQ/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%28Official%20Video%29%20%284K%20Remaster%29.mp4",
+        "filename": "dQw4w9WgXcQ/Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster).mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912659_a7f6ae_dQw4w9WgXcQ.orig.srt?filename=dQw4w9WgXcQ/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%28Official%20Video%29%20%284K%20Remaster%29.orig.srt",
+        "filename": "dQw4w9WgXcQ/Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster).orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:50:59] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "[2026-08-05 13:50:59] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "[2026-08-05 13:50:59] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:51:08] Tải stream hoàn tất. Đã trích xuất tiêu đề: 'Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)'",
+      "[2026-08-05 13:51:08] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:51:08] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:51:08] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912620_5df1dd",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "title": "Đang tải...",
+    "thumbnail": "",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "FAILED",
+    "timestamp": "2026-08-05 13:50:20",
+    "timestamp_raw": 1785912620.234094,
+    "files": [],
+    "logs": [
+      "[2026-08-05 13:50:20] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "[2026-08-05 13:50:20] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "[2026-08-05 13:50:20] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:50:25] ❌ Lỗi: ERROR: Unable to download video subtitles for 'ab-en': HTTP Error 429: Too Many Requests"
+    ],
+    "error": "ERROR: Unable to download video subtitles for 'ab-en': HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "task_1785912607_005856",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "title": "Đang tải...",
+    "thumbnail": "",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "FAILED",
+    "timestamp": "2026-08-05 13:50:07",
+    "timestamp_raw": 1785912607.1699882,
+    "files": [],
+    "logs": [
+      "[2026-08-05 13:50:07] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "[2026-08-05 13:50:07] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "[2026-08-05 13:50:07] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:50:12] ❌ Lỗi: ERROR: Unable to download video subtitles for 'aa-en': HTTP Error 429: Too Many Requests"
+    ],
+    "error": "ERROR: Unable to download video subtitles for 'aa-en': HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "task_1785912595_12ff92",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:49:55",
+    "timestamp_raw": 1785912595.0279534,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912595_12ff92_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912595_12ff92_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:49:55] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:49:55] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:49:55] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:50:06] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:50:06] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:50:07] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:50:07] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912378_20f7be",
+    "url": "https://www.douyin.com/video/7637475296233810873",
+    "title": "光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇",
+    "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/osFIwi5B9F3IpAwf9qbfbu1KquaBABi2owNEIk~tplv-dy-360p.jpeg?lk3s=138a59ce&x-expires=1787119200&x-signature=KTQ070KXFffsf6jtCdMwD1a8V1I%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=origin_cover&biz_tag=aweme_video&l=20260805144619E04C53DC37A7A67222E6",
+    "platform": "TikTok/Douyin",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:46:18",
+    "timestamp_raw": 1785912378.687886,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912378_20f7be_7637475296233810873.mp4?filename=7637475296233810873/%E5%85%89%E9%81%87%E5%A7%86%E6%98%8E%E5%AD%A3%E5%A4%8D%E5%88%BB%E6%94%BB%E7%95%A5_%E5%9B%9B%E4%BD%8D%E9%83%BD%E6%98%AF%E4%BA%BA%E6%B0%94%E5%85%88%E7%A5%96%EF%BC%8C%E5%A4%8D%E5%88%BB%E4%B8%8D%E8%A6%81%E9%94%99%E8%BF%87%E3%80%82%23%E5%85%89%E9%81%87%E4%B8%AD%E5%9B%BD%E7%BB%8A%E7%88%B1%E5%85%A8%E6%99%AF%E6%BC%94%E5%87%BA%20%23%E5%85%89%E9%81%87%E6%9C%89%E7%88%B1%E6%9B%B4%E5%9C%86%E6%BB%A1%20%23%E5%85%89%E9%81%87%E7%8B%82%E6%AC%A2%E5%AD%A3%20%23%E5%85%89%E9%81%87%E5%90%91%E5%BF%AB%E4%B9%90%E5%87%BA%E5%8F%91%20%23%E5%85%89%E9%81%87.mp4",
+        "filename": "7637475296233810873/光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇.mp4",
+        "type": "video"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:46:18] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:46:18] Khởi tạo tác vụ tải video (1080p) từ: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:46:18] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:46:18] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:46:22] Tải stream hoàn tất. Đã trích xuất tiêu đề: '光遇姆明季复刻攻略_四位都是人气先祖，复刻不要错过。#光遇中国绊爱全景演出 #光遇有爱更圆满 #光遇狂欢季 #光遇向快乐出发 #光遇'",
+      "[2026-08-05 13:46:22] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:46:22] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:46:22] ✅ Thành công 100%! Đã tạo gói 1 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912376_3ab6d8",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:46:16",
+    "timestamp_raw": 1785912376.1639266,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912376_3ab6d8_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912376_3ab6d8_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:46:16] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:46:16] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:46:16] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:46:16] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:46:23] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:46:23] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:46:23] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:46:23] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912266_777f4c",
+    "url": "https://www.douyin.com/video/7637475296233810873",
+    "title": "Đang tải...",
+    "thumbnail": "",
+    "platform": "TikTok/Douyin",
+    "quality": "1080p",
+    "status": "FAILED",
+    "timestamp": "2026-08-05 13:44:26",
+    "timestamp_raw": 1785912266.1827266,
+    "files": [],
+    "logs": [
+      "[2026-08-05 13:44:26] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:44:26] Khởi tạo tác vụ tải video (1080p) từ: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:44:26] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:44:26] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:44:28] ❌ Lỗi: ERROR: [Douyin] 7637475296233810873: Fresh cookies (not necessarily logged in) are needed; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+    ],
+    "error": "ERROR: [Douyin] 7637475296233810873: Fresh cookies (not necessarily logged in) are needed; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+  },
+  {
+    "id": "task_1785912133_4eec12",
+    "url": "https://www.douyin.com/video/7637475296233810873",
+    "title": "Đang tải...",
+    "thumbnail": "",
+    "platform": "TikTok/Douyin",
+    "quality": "1080p",
+    "status": "FAILED",
+    "timestamp": "2026-08-05 13:42:13",
+    "timestamp_raw": 1785912133.7219796,
+    "files": [],
+    "logs": [
+      "[2026-08-05 13:42:13] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:42:13] Khởi tạo tác vụ tải video (1080p) từ: https://www.douyin.com/video/7637475296233810873",
+      "[2026-08-05 13:42:13] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:42:13] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:42:15] ❌ Lỗi: ERROR: [Douyin] 7637475296233810873: Fresh cookies (not necessarily logged in) are needed; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+    ],
+    "error": "ERROR: [Douyin] 7637475296233810873: Fresh cookies (not necessarily logged in) are needed; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+  },
+  {
+    "id": "task_1785912110_206339",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:41:50",
+    "timestamp_raw": 1785912110.446467,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912110_206339_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912110_206339_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:41:50] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:41:50] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:41:50] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:41:50] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:41:57] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:41:57] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:41:57] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:41:57] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785912043_2a7068",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:40:43",
+    "timestamp_raw": 1785912043.1882231,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785912043_2a7068_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785912043_2a7068_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:40:43] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:40:43] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:40:43] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:40:50] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:40:50] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:40:50] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:40:50] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785911965_5029a8",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "Đang tải...",
+    "thumbnail": "",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "FAILED",
+    "timestamp": "2026-08-05 13:39:25",
+    "timestamp_raw": 1785911965.068672,
+    "files": [],
+    "logs": [
+      "[2026-08-05 13:39:25] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:39:25] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:39:25] ❌ Lỗi: [Errno 2] No such file or directory: 'C:\\\\Users\\\\NeoTran\\\\Documents\\\\workspace\\\\video_auto_cut\\\\downloads\\\\cookies_1785911965_5029a8.txt'"
+    ],
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\NeoTran\\\\Documents\\\\workspace\\\\video_auto_cut\\\\downloads\\\\cookies_1785911965_5029a8.txt'"
+  },
+  {
+    "id": "task_1785911947_0eadcd",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "Đang tải...",
+    "thumbnail": "",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "FAILED",
+    "timestamp": "2026-08-05 13:39:07",
+    "timestamp_raw": 1785911947.4139853,
+    "files": [],
+    "logs": [
+      "[2026-08-05 13:39:07] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:39:07] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:39:07] ❌ Lỗi: [Errno 2] No such file or directory: 'C:\\\\Users\\\\NeoTran\\\\Documents\\\\workspace\\\\video_auto_cut\\\\downloads\\\\cookies_1785911947_0eadcd.txt'"
+    ],
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\NeoTran\\\\Documents\\\\workspace\\\\video_auto_cut\\\\downloads\\\\cookies_1785911947_0eadcd.txt'"
+  },
+  {
+    "id": "task_1785911805_8e0abc",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:36:45",
+    "timestamp_raw": 1785911805.058311,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785911805_8e0abc_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785911805_8e0abc_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:36:45] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:36:45] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:36:45] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:36:52] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:36:52] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:36:52] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:36:52] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785911706_930a32",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "DOWNLOADING",
+    "timestamp": "2026-08-05 13:35:06",
+    "timestamp_raw": 1785911706.1069367,
+    "files": [],
+    "logs": [
+      "[2026-08-05 13:35:06] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:35:06] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 13:35:06] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 13:35:06] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:35:14] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:35:14] Đang xử lý phụ đề Gốc..."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785911483_a53898",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 13:31:23",
+    "timestamp_raw": 1785911483.1076672,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785911483_a53898_BV1KS4y1i7zL.mp4?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp4",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785911483_a53898_BV1KS4y1i7zL.orig.srt?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.orig.srt",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 13:31:23] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:31:23] Khởi tạo tác vụ tải video (1080p) từ: https://www.bilibili.com/video/BV1KS4y1i7zL",
+      "[2026-08-05 13:31:23] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 13:31:29] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 13:31:29] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 13:34:15] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 13:34:15] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  }
+]

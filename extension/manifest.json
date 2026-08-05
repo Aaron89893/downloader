@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "downloader",
+  "version": "1.0.0",
+  "description": "Tải video TikTok, YouTube, Bilibili không logo, chất lượng cao 1080p kèm phụ đề dịch Tiếng Việt chuẩn.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "cookies",
+    "storage",
+    "notifications",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.bilibili.com/*",
+        "*://b23.tv/*",
+        "*://*.youtube.com/*",
+        "*://youtu.be/*",
+        "*://*.tiktok.com/*",
+        "*://*.douyin.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}

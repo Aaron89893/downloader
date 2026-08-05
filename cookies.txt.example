@@ -1,0 +1,9 @@
+# HƯỚNG DẪN TẢI VIDEO BILIBILI CHẤT LƯỢNG CAO NHẤT (1080p60 / 4K / 8K)
+#
+# Mặc định nếu không có cookie, Bilibili giới hạn chất lượng cho khách (Guest) ở mức 720p/1080p thường.
+# Để tải được video chất lượng cao nhất (4K, 1080p60, Dolby Vision):
+#
+# 1. Đăng nhập tài khoản Bilibili trên trình duyệt (Chrome/Firefox/Edge).
+# 2. Cài tiện ích xuất Cookie ra định dạng Netscape (ví dụ: "Get cookies.txt LOCALLY" trên Chrome/Edge).
+# 3. Xuất cookie của trang bilibili.com và lưu thành file tên `cookies.txt` nằm cùng thư mục với script này.
+# 4. Chạy `bash run.sh`, tool sẽ tự động nhận diện file `cookies.txt` và tải video ở độ phân giải cao nhất!

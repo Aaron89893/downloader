@@ -1,0 +1,8 @@
+# Nhập các link video Bilibili cần tải vào đây (mỗi link một dòng)
+# Dòng bắt đầu bằng dấu # là ghi chú, sẽ tự động bỏ qua.
+# Hỗ trợ tất cả định dạng link Bilibili: 
+# - Video thường: https://www.bilibili.com/video/BV1xx411c7m9
+# - Link rút gọn: https://b23.tv/xxxxxx
+# - Link phim/anime: https://www.bilibili.com/bangumi/play/ep123456
+
+https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click

@@ -95,8 +95,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         triggerDownload(url, '1080p');
     });
 
-    // Analyze Button (Fetches formats & details)
-    analyzeBtn.addEventListener('click', async () => {
+    // Analyze Button (Fetches formats & details via Background Service Worker)
+    analyzeBtn.addEventListener('click', () => {
         const url = urlInput.value.trim();
         if (!url) {
             showError('Vui lòng nhập đường dẫn URL.');
@@ -106,21 +106,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         showError('');
         setProgress(true, 'Đang phân tích định dạng...');
 
-        try {
-            const cookiesTxt = await getNetscapeCookies(url);
+        chrome.runtime.sendMessage({
+            action: 'ANALYZE_VIDEO',
+            url: url,
+            sessdata: currentSessData
+        }, (data) => {
+            if (chrome.runtime.lastError) {
+                showError('Lỗi phân tích: ' + chrome.runtime.lastError.message);
+                setProgress(false);
+                return;
+            }
 
-            const res = await fetch(`${SERVER_URL}/api/analyze`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    url: url,
-                    sessdata: currentSessData,
-                    cookies_txt: cookiesTxt
-                })
-            });
-
-            const data = await res.json();
-            if (!res.ok || data.error) throw new Error(data.error || 'Phân tích thất bại.');
+            if (!data || data.error) {
+                showError(data ? data.error : 'Phân tích thất bại.');
+                setProgress(false);
+                return;
+            }
 
             videoThumb.src = data.thumbnail.startsWith('/') ? SERVER_URL + data.thumbnail : data.thumbnail;
             videoTitle.textContent = data.title;
@@ -137,11 +138,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             videoCard.style.display = 'block';
             setProgress(false);
-
-        } catch (err) {
-            showError(err.message);
-            setProgress(false);
-        }
+        });
     });
 
     // Custom Download Button inside Video Card

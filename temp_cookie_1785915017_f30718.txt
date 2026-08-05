@@ -1,0 +1,20 @@
+# Netscape HTTP Cookie File
+.bilibili.com	TRUE	/	FALSE	1815808035	buvid3	713857D8-86CF-C046-CBB0-06C626D60EE635107infoc
+.bilibili.com	TRUE	/	FALSE	1812784053	b_nut	1781248035
+.bilibili.com	TRUE	/	FALSE	1812784035	_uuid	6C696539-7D13-587B-1010E3-10DA691B10E3D535959infoc
+.bilibili.com	TRUE	/	FALSE	1817447958	CURRENT_FNVAL	4048
+.bilibili.com	TRUE	/	FALSE	1812784036	CURRENT_QUALITY	0
+.bilibili.com	TRUE	/	FALSE	1820473763	buvid4	4608548D-C5E9-2CB7-7EC5-6869AB0EF7EF37724-026061215-ZI8GZ6quD4V/j/qTWNqG7A%3D%3D
+.bilibili.com	TRUE	/	FALSE	1815808040	buvid_fp	0ebe8e58de3df84b9cb3d84958bfa7df
+.bilibili.com	TRUE	/	FALSE	1786001417	bsource	search_google
+search.bilibili.com	FALSE	/	FALSE	1786001417	bmg_af_switch	1
+search.bilibili.com	FALSE	/	FALSE	1786001417	bmg_src_def_domain	i1.hdslb.com
+search.bilibili.com	FALSE	/	FALSE	1786001417	bmg_af_sc	{"none":{"on":1,"def":"i1.hdslb.com"},"sgp":{"on":1,"def":"i1-sgp.hdslb.com"}}
+.bilibili.com	TRUE	/	FALSE	1786100246	bili_ticket	eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODYxMDAyNDYsImlhdCI6MTc4NTg0MDk4NiwicGx0IjotMX0.VMmaZ3lugdNlsBBDtS5kWtxqNn7tCyUczPQgkgADEbU
+.bilibili.com	TRUE	/	FALSE	1786100246	bili_ticket_expires	1786100186
+www.bilibili.com	FALSE	/	FALSE	1786001417	bmg_af_switch	1
+www.bilibili.com	FALSE	/	FALSE	1786001417	bmg_src_def_domain	i1.hdslb.com
+www.bilibili.com	FALSE	/	FALSE	1786001417	bmg_af_sc	{"none":{"on":1,"def":"i1.hdslb.com"},"sgp":{"on":1,"def":"i1-sgp.hdslb.com"}}
+.bilibili.com	TRUE	/	FALSE	1820461989	rpdid	|(umJRlluY)l0J'u~)lm|um)m
+.bilibili.com	TRUE	/	FALSE	1786001417	sid	581kdph3
+.bilibili.com	TRUE	/	FALSE	1786001417	b_lsid	1469EB55_19FD0D45D58

@@ -1,29 +1,19 @@
 @echo off
-chcp 65001 >nul
-set PYTHONIOENCODING=utf-8
-title SnapBili Web Downloader - Bilibili No Watermark
-
-echo ==================================================
-echo     SnapBili Web Downloader Auto Runner
-echo ==================================================
-
-cd /d "%~dp0"
-
-if exist venv goto HAS_VENV
-echo [+] Creating Python virtual environment...
-python -m venv venv
-
-:HAS_VENV
-if exist venv\Scripts\activate.bat call venv\Scripts\activate.bat
-
-echo [+] Checking and installing dependencies...
-python -m pip install --quiet --upgrade pip
-python -m pip install --quiet -r requirements.txt
-
-echo [+] Starting Web App at http://127.0.0.1:5000 ...
-start "" http://127.0.0.1:5000
-python app.py
-
+title Downloader - Server Host
+echo ============================================================
+echo      STARTING DOWNLOADER WEB SERVER (PORT 5000)          
+echo ============================================================
 echo.
-echo [OK] Execution completed.
+
+if not exist "venv\Scripts\activate.bat" (
+    echo [!] Virtual environment venv not found. Running setup.bat...
+    call setup.bat
+)
+
+call venv\Scripts\activate.bat
+
+echo [OK] Launching backend server at: http://127.0.0.1:5000
+echo [*] Please keep this window open while using Chrome Extension.
+echo.
+python app.py
 pause

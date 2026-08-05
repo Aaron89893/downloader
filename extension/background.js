@@ -24,6 +24,11 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         handleBackgroundDownload(url, type, sessdata, sendResponse);
         return true; // Keep message channel open for async response
     }
+    if (request.action === 'ANALYZE_VIDEO') {
+        const { url, sessdata } = request;
+        handleBackgroundAnalyze(url, sessdata, sendResponse);
+        return true; // Keep message channel open for async response
+    }
 });
 
 async function getNetscapeCookies(urlStr) {
@@ -55,6 +60,29 @@ async function getNetscapeCookies(urlStr) {
         return lines.join('\n');
     } catch (e) {
         return null;
+    }
+}
+
+async function handleBackgroundAnalyze(url, sessdata, sendResponse) {
+    try {
+        const cookiesTxt = await getNetscapeCookies(url);
+        const res = await fetch(`${SERVER_URL}/api/analyze`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                url: url,
+                sessdata: sessdata,
+                cookies_txt: cookiesTxt
+            })
+        });
+        const data = await res.json();
+        if (!res.ok || data.error) {
+            sendResponse({ error: data.error || 'Phân tích thất bại.' });
+        } else {
+            sendResponse(data);
+        }
+    } catch (err) {
+        sendResponse({ error: err.message || 'Lỗi kết nối phân tích.' });
     }
 }
 

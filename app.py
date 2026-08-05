@@ -40,8 +40,8 @@ DOWNLOADS_DIR = PROJECT_DIR / "downloads"
 DOWNLOADS_DIR.mkdir(exist_ok=True)
 COOKIES_FILE = PROJECT_DIR / "cookies.txt"
 
-def cleanup_old_files(max_age_seconds=3600):
-    """Clean up temporary download files older than max_age_seconds (1 hour)"""
+def cleanup_old_files(max_age_seconds=180):
+    """Clean up temporary download files older than max_age_seconds (3 minutes) to prevent disk memory overflow"""
     now = time.time()
     for item in DOWNLOADS_DIR.glob('*'):
         try:
@@ -50,8 +50,8 @@ def cleanup_old_files(max_age_seconds=3600):
         except Exception:
             pass
 
-def delayed_delete(file_path, delay=300):
-    """Schedule file deletion 5 minutes after download link is fetched"""
+def delayed_delete(file_path, delay=60):
+    """Schedule file deletion 60 seconds after download link is fetched by Chrome Download Manager"""
     def _delete():
         time.sleep(delay)
         try:
@@ -78,6 +78,16 @@ def extract_video_id(url, fallback_id='video'):
     if num:
         return num.group(1)
     return fallback_id
+
+def clean_video_url(url):
+    if not url:
+        return ''
+    url = url.strip()
+    if 'youtube.com' in url or 'youtu.be' in url:
+        m = re.search(r'(?:v=|/)([a-zA-Z0-9_-]{11})', url)
+        if m:
+            return f"https://www.youtube.com/watch?v={m.group(1)}"
+    return url
 
 def format_duration(seconds):
     if not seconds:
@@ -114,9 +124,14 @@ def get_ydl_options(extra_opts=None, sessdata=None, url=None):
         'writeautomaticsub': True,
         'subtitlesformat': 'srt/vtt/best',
         'subtitleslangs': ['en', 'vi', 'zh-Hans', 'zh', 'ja', 'orig'],
-        'ignoreerrors': True,
         'embedsubtitles': True,
+        'nocheckcertificate': True,
         'http_headers': headers,
+        'extractor_args': {
+            'youtube': {
+                'player_client': ['android', 'web']
+            }
+        }
     }
     if FFMPEG_PATH:
         ydl_opts['ffmpeg_location'] = FFMPEG_PATH
@@ -133,7 +148,7 @@ def index():
 @app.route('/api/analyze', methods=['POST'])
 def analyze():
     data = request.get_json() or {}
-    url = data.get('url', '').strip()
+    url = clean_video_url(data.get('url', ''))
 
     if not url:
         return jsonify({'error': 'Vui lòng nhập đường dẫn URL hợp lệ (YouTube, TikTok, Bilibili, Douyin).'}), 400
@@ -234,7 +249,7 @@ def proxy_thumb():
 @app.route('/api/download', methods=['POST'])
 def process_download():
     data = request.get_json() or {}
-    url = data.get('url', '').strip()
+    url = clean_video_url(data.get('url', ''))
     download_type = data.get('type', '1080p') # '1080p', '720p', '480p', 'mp3'
 
     if not url:
@@ -254,16 +269,16 @@ def process_download():
                 'preferredquality': '192',
             }]
         elif download_type == '720p':
-            fmt = 'bestvideo[height<=720]+bestaudio/best[height<=720]/best'
+            fmt = 'bestvideo[height<=?720]+bestaudio/bestvideo+bestaudio/best'
             ext = 'mp4'
             postprocessors = []
         elif download_type == '480p':
-            fmt = 'bestvideo[height<=480]+bestaudio/best[height<=480]/best'
+            fmt = 'bestvideo[height<=?480]+bestaudio/bestvideo+bestaudio/best'
             ext = 'mp4'
             postprocessors = []
         else:
-            # Default quality max 1080p (above 720p, below 2k)
-            fmt = 'bestvideo[height<=1080]+bestaudio/best[height<=1080]/best'
+            # Default quality max 1080p
+            fmt = 'bestvideo[height<=?1080]+bestaudio/bestvideo+bestaudio/best'
             ext = 'mp4'
             postprocessors = []
 
@@ -308,6 +323,9 @@ def process_download():
                     os.remove(temp_cookie_file)
                 except Exception:
                     pass
+
+        if not info:
+            return jsonify({'error': 'Tải video thất bại, không nhận được thông tin từ nền tảng.'}), 500
 
         video_title = info.get('title', 'video')
         raw_id = info.get('id')
@@ -379,8 +397,10 @@ def get_file(filename):
     file_path = DOWNLOADS_DIR / filename
     custom_name = request.args.get('filename', filename)
     if file_path.exists():
-        delayed_delete(file_path, delay=300)
+        delayed_delete(file_path, delay=60)
+        cleanup_old_files(max_age_seconds=180)
         return send_file(file_path, as_attachment=True, download_name=custom_name)
+    cleanup_old_files(max_age_seconds=180)
     return Response("File not found", status=404)
 
 @app.route('/api/history', methods=['GET'])

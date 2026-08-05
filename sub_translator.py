@@ -3,6 +3,7 @@ import re
 import sys
 import json
 import zlib
+import shutil
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -199,7 +200,7 @@ def convert_vtt_to_srt(vtt_path, output_orig=None):
     return None
 
 def create_fallback_srt(video_path, title_text="Video Subtitle", duration_sec=15):
-    """Generate a clean fallback SRT subtitle file for videos without native subtitles (Douyin / TikTok)"""
+    """Generate a clean multi-block SRT subtitle file for videos without native subtitles (Douyin / TikTok)"""
     v_path = Path(video_path)
     if not v_path.exists():
         return None
@@ -208,15 +209,32 @@ def create_fallback_srt(video_path, title_text="Video Subtitle", duration_sec=15
     output_orig = v_path.with_name(f"{base_stem}.orig.srt")
 
     try:
-        t_start = format_srt_time(0.0)
-        t_end = format_srt_time(float(duration_sec or 15.0))
-        text = title_text if title_text else "Douyin/TikTok Video Subtitle"
+        duration = float(duration_sec or 15.0)
+        if duration <= 0:
+            duration = 15.0
 
-        srt_content = f"1\n{t_start} --> {t_end}\n{text}\n"
+        raw_chunks = re.split(r'[\n\r\_\.\!\?\,\;\:\s]+', str(title_text or '').strip())
+        chunks = [c.strip() for c in raw_chunks if c.strip()]
+
+        if not chunks:
+            chunks = ["Douyin/TikTok Video Subtitle"]
+
+        if len(chunks) > 30:
+            chunks = chunks[:30]
+
+        step = duration / len(chunks)
+        srt_blocks = []
+
+        for idx, chunk in enumerate(chunks, start=1):
+            t_start_sec = (idx - 1) * step
+            t_end_sec = idx * step
+            t_start = format_srt_time(t_start_sec)
+            t_end = format_srt_time(t_end_sec)
+            srt_blocks.append(f"{idx}\n{t_start} --> {t_end}\n{chunk}")
 
         with open(output_orig, "w", encoding="utf-8") as f:
-            f.write(srt_content)
-        print(f"[✓] Đã tạo file Phụ Đề Gốc Fallback (Douyin/TikTok): {output_orig.name}")
+            f.write("\n\n".join(srt_blocks))
+        print(f"[✓] Đã tạo file Phụ Đề Gốc Multi-block ({len(chunks)} câu) cho Douyin/TikTok: {output_orig.name}")
         return str(output_orig)
 
     except Exception as e:
@@ -231,58 +249,52 @@ def process_all_subtitles(video_path, title_text=None, duration_sec=15, url=None
 
     base_stem = v_path.stem
     parent_dir = v_path.parent
+    target_orig_file = v_path.with_name(f"{base_stem}.orig.srt")
 
-    xml_files = list(parent_dir.glob(f"{base_stem}*.xml"))
-    vtt_files = list(parent_dir.glob(f"{base_stem}*.vtt"))
-    srt_files = list(parent_dir.glob(f"{base_stem}*.srt"))
+    # Clean up any old small fallback file from previous test runs so we always generate fresh subtitles
+    if target_orig_file.exists() and target_orig_file.stat().st_size <= 300:
+        try:
+            target_orig_file.unlink()
+        except Exception:
+            pass
 
-    created_orig = None
-
-    # 1. Process XML danmaku if present (Bilibili local file)
-    for xml_f in xml_files:
-        o = convert_danmaku_xml_to_srt(xml_f)
-        if o:
-            created_orig = o
-            break
-
-    # 2. Process VTT files if present (YouTube)
-    if not created_orig:
-        for vtt_f in vtt_files:
-            o = convert_vtt_to_srt(vtt_f)
-            if o:
-                created_orig = o
-                break
-
-    # 3. Process existing SRT files if present
-    if not created_orig:
-        for srt_f in srt_files:
-            if not srt_f.name.endswith('.orig.srt'):
-                orig_file = srt_f.with_name(f"{base_stem}.orig.srt")
-                if not orig_file.exists():
-                    srt_f.rename(orig_file)
-                created_orig = str(orig_file)
-                break
-            elif srt_f.stat().st_size > 200:
-                created_orig = str(srt_f)
-                break
-
-    # 4. Check if this is a Bilibili video (BV id in filename or url) and fetch 400+ Danmaku comments from Bilibili API
+    # 1. Bilibili API Fetch (If BV ID is in URL or filename)
     bv_match = None
     if url:
         bv_match = re.search(r'(BV[a-zA-Z0-9]+)', url)
     if not bv_match:
         bv_match = re.search(r'(BV[a-zA-Z0-9]+)', base_stem)
 
-    if not created_orig or (Path(created_orig).exists() and Path(created_orig).stat().st_size <= 200 and bv_match):
-        if bv_match:
-            bvid = bv_match.group(1)
-            target_srt = v_path.with_name(f"{base_stem}.orig.srt")
-            fetched = fetch_bilibili_danmaku_srt(bvid, target_srt)
-            if fetched:
-                created_orig = fetched
+    if bv_match:
+        bvid = bv_match.group(1)
+        fetched = fetch_bilibili_danmaku_srt(bvid, target_orig_file)
+        if fetched and Path(fetched).exists() and Path(fetched).stat().st_size > 300:
+            return str(target_orig_file)
 
-    # 5. Fallback: Generate clean SRT for platforms without caption tracks (Douyin / TikTok / Short Videos)
-    if not created_orig or not Path(created_orig).exists():
-        created_orig = create_fallback_srt(video_path, title_text=title_text, duration_sec=duration_sec)
+    # 2. Process XML danmaku if present (Bilibili local file)
+    xml_files = list(parent_dir.glob(f"{base_stem}*.xml"))
+    for xml_f in xml_files:
+        o = convert_danmaku_xml_to_srt(xml_f, output_orig=target_orig_file)
+        if o and Path(o).exists() and Path(o).stat().st_size > 300:
+            return str(target_orig_file)
 
+    # 3. Process VTT files if present (YouTube)
+    vtt_files = list(parent_dir.glob(f"{base_stem}*.vtt"))
+    for vtt_f in vtt_files:
+        o = convert_vtt_to_srt(vtt_f, output_orig=target_orig_file)
+        if o and Path(o).exists() and Path(o).stat().st_size > 300:
+            return str(target_orig_file)
+
+    # 4. Process existing SRT files if present (excluding target_orig_file itself)
+    srt_files = list(parent_dir.glob(f"{base_stem}*.srt"))
+    for srt_f in srt_files:
+        if srt_f != target_orig_file and srt_f.stat().st_size > 300:
+            try:
+                shutil.copy(srt_f, target_orig_file)
+                return str(target_orig_file)
+            except Exception:
+                pass
+
+    # 5. Multi-block SRT for Douyin / TikTok / Short Videos without explicit closed-caption tracks
+    created_orig = create_fallback_srt(video_path, title_text=title_text, duration_sec=duration_sec)
     return created_orig

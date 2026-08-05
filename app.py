@@ -125,6 +125,7 @@ def get_ydl_options(extra_opts=None, sessdata=None, url=None):
         'subtitlesformat': 'srt/vtt/best',
         'subtitleslangs': ['en', 'vi', 'zh-Hans', 'zh', 'ja', 'orig'],
         'embedsubtitles': True,
+        'ignoreerrors': True,
         'nocheckcertificate': True,
         'http_headers': headers,
     }

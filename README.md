@@ -1,31 +1,42 @@
-# ⚡ Downloader - Chrome Extension & Backend
+# ⚡ Downloader - Web App & Chrome Extension
 
-Tải video HD (1080p) kèm phụ đề gốc từ **Bilibili, YouTube, TikTok, Douyin** vào một thư mục riêng biệt.
+Hệ thống tải video HD (1080p) kèm phụ đề gốc tự động từ **Bilibili, YouTube, TikTok, Douyin** gom vào từng thư mục riêng biệt.
 
 ---
 
 ## ⚡ Hướng Dẫn Nhanh (Quick Start)
 
-### 1. Khởi chạy Server (1-Click)
-- Nhấp đúp file **`run.bat`**
-- Server tự động cài đặt môi trường và chạy tại: `http://127.0.0.1:5000`
+### 1. Khởi tạo & Cài đặt Môi Trường (Setup)
+- Nhấp đúp file **`setup.bat`** (Tự động tải & cài đặt Python 3.11 nếu máy chưa có, khởi tạo `venv` và cài đặt các thư viện cần thiết).
 
-### 2. Cài đặt Chrome Extension
-1. Mở Chrome → Truy cập `chrome://extensions`
-2. Bật **Developer mode** (Góc trên bên phải)
-3. Nhấn **Load unpacked** → Chọn thư mục `./extension`
+### 2. Khởi chạy Web Server Backend (Run)
+- Nhấp đúp file **`run.bat`** hoặc gõ `.\run.bat` trên PowerShell.
+- Server tự động kích hoạt môi trường ảo `venv` và chạy tại: `http://127.0.0.1:5000`
 
----
+### 3. Khởi chạy Cùng Windows (Tùy chọn Auto-Start)
+- Nhấp đúp file **`install_auto_start.bat`** (Đăng ký Web Server tự động chạy ngầm mỗi khi mở máy tính).
 
-## 🚀 Tính Năng Chính
-- **2 File Duy Nhất**: Tự động lưu 1 file Video (`.mp4`) và 1 file Phụ Đề Gốc (`.orig.srt`).
-- **Thư Mục Chuẩn**: Tự động gom 2 file vào thư mục mang mã ID Video (ví dụ: `BV1KS4y1i7zL/`).
-- **Bilibili Danmaku**: Tự bóc tách và giải nén 400+ câu phụ đề Danmaku.
-- **Tự Động Làm Sạch Bộ Nhớ**: Tự động xóa file tạm trên đĩa sau 60 giây.
+### 4. Cài đặt Chrome Extension
+1. Mở trình duyệt Chrome → Truy cập `chrome://extensions`
+2. Bật **Developer mode** ở góc trên bên phải
+3. Nhấn **Load unpacked** → Chọn thư mục `./extension` trong dự án
 
 ---
 
-## ⚙️ Lệnh Điều Khiển qua CMD
+## 🚀 Tính Năng Nổi Bật
 
-- **Bật Server**: `run.bat`
-- **Tắt Server**: `taskkill /F /IM python.exe`
+- 🎯 **Gom Thư Mục Riêng**: Tự động tạo thư mục theo ID Video (ví dụ: `BV1KS4y1i7zL/`) chứa đúng 1 file Video (`.mp4`/`.webm`) và 1 file Phụ Đề Gốc (`.orig.srt`).
+- 🛡️ **2-Stage Zero-Failure Fallback**: Tự động gỡ cookie xung đột và chuyển sang luồng dự phòng nếu YouTube chặn tải.
+- ⚡ **Bilibili Danmaku & Douyin Subtitle**: Giải nén zlib Danmaku Bilibili và ghép phụ đề multi-block Douyin/TikTok.
+- 🧹 **Tự Động Xóa Đĩa**: Tự động dọn dẹp file tạm trên ổ đĩa sau 60 giây để tránh tràn bộ nhớ.
+
+---
+
+## ⚙️ Lệnh Điều Khiển CMD / PowerShell
+
+| Thao tác | Câu lệnh / File |
+| :--- | :--- |
+| **Setup Môi Trường** | `setup.bat` |
+| **Bật Server** | `run.bat` hoặc `.\venv\Scripts\python.exe app.py` |
+| **Tắt Server** | `taskkill /F /IM python.exe` |
+| **Tự Bật Cùng Win** | `install_auto_start.bat` |

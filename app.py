@@ -127,11 +127,6 @@ def get_ydl_options(extra_opts=None, sessdata=None, url=None):
         'embedsubtitles': True,
         'nocheckcertificate': True,
         'http_headers': headers,
-        'extractor_args': {
-            'youtube': {
-                'player_client': ['android', 'web']
-            }
-        }
     }
     if FFMPEG_PATH:
         ydl_opts['ffmpeg_location'] = FFMPEG_PATH
@@ -173,35 +168,40 @@ def analyze():
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(url, download=False)
         except Exception:
-            video_id = extract_video_id(url, fallback_id='video')
-            info = {
-                'id': video_id,
-                'title': f"Video {video_id}",
-                'thumbnail': '',
-                'duration': 0,
-                'uploader': 'Creator'
-            }
+            # Retry without cookiefile (fixes YouTube cookie rejection in analyze)
+            if 'cookiefile' in ydl_opts:
+                ydl_opts_nocookie = dict(ydl_opts)
+                ydl_opts_nocookie.pop('cookiefile', None)
+                try:
+                    with yt_dlp.YoutubeDL(ydl_opts_nocookie) as ydl:
+                        info = ydl.extract_info(url, download=False)
+                except Exception:
+                    pass
 
         if info and 'entries' in info and info['entries']:
             info = info['entries'][0]
 
+        video_id = extract_video_id(url, fallback_id='video')
+
         if not info:
-            video_id = extract_video_id(url, fallback_id='video')
             info = {
                 'id': video_id,
                 'title': f"Video {video_id}",
-                'thumbnail': '',
+                'thumbnail': f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg" if ('youtube.com' in url or 'youtu.be' in url) else '',
                 'duration': 0,
                 'uploader': 'Creator'
             }
 
-        title = info.get('title', 'Video')
+        title = info.get('title') or f"Video {video_id}"
         thumbnail = info.get('thumbnail') or info.get('cover') or ''
+        if not thumbnail and ('youtube.com' in url or 'youtu.be' in url):
+            thumbnail = f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg"
+
         duration = format_duration(info.get('duration'))
         uploader = info.get('uploader') or info.get('owner', {}).get('name') or 'Creator'
-        video_id = info.get('id') or extract_video_id(url, fallback_id='video')
+        video_id = info.get('id') or video_id
 
-        thumb_proxy = f"/api/proxy_thumb?url={requests.utils.quote(thumbnail)}" if thumbnail else "/static/default-cover.jpg"
+        thumb_proxy = f"/api/proxy_thumb?url={requests.utils.quote(thumbnail)}" if thumbnail else ""
 
         qualities = [
             {'id': '1080p', 'name': '1080p Full HD (Chuẩn)'},
@@ -213,7 +213,7 @@ def analyze():
         return jsonify({
             'success': True,
             'title': title,
-            'thumbnail': thumb_proxy,
+            'thumbnail': thumb_proxy if thumb_proxy else thumbnail,
             'duration': duration,
             'uploader': uploader,
             'id': video_id,
@@ -261,7 +261,7 @@ def process_download():
     try:
         timestamp = int(time.time())
         if download_type == 'mp3':
-            fmt = 'bestaudio/best'
+            fmt = 'ba/b'
             ext = 'mp3'
             postprocessors = [{
                 'key': 'FFmpegExtractAudio',
@@ -269,16 +269,16 @@ def process_download():
                 'preferredquality': '192',
             }]
         elif download_type == '720p':
-            fmt = 'bestvideo[height<=?720]+bestaudio/bestvideo+bestaudio/best'
+            fmt = 'bv*[height<=720]+ba/b[height<=720]/bv*+ba/b'
             ext = 'mp4'
             postprocessors = []
         elif download_type == '480p':
-            fmt = 'bestvideo[height<=?480]+bestaudio/bestvideo+bestaudio/best'
+            fmt = 'bv*[height<=480]+ba/b[height<=480]/bv*+ba/b'
             ext = 'mp4'
             postprocessors = []
         else:
             # Default quality max 1080p
-            fmt = 'bestvideo[height<=?1080]+bestaudio/bestvideo+bestaudio/best'
+            fmt = 'bv*[height<=1080]+ba/b[height<=1080]/bv*+ba/b'
             ext = 'mp4'
             postprocessors = []
 
@@ -309,14 +309,43 @@ def process_download():
                 add_log_to_history(task_id, "Đã nạp cookie xác thực từ trình duyệt active tab.")
 
         add_log_to_history(task_id, "Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...")
+        info = None
         try:
-            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                info = ydl.extract_info(url, download=True)
-                filename = ydl.prepare_filename(info)
-                if download_type == 'mp3':
-                    filename = os.path.splitext(filename)[0] + '.mp3'
-                elif download_type != 'mp3' and not filename.endswith('.mp4'):
-                    filename = os.path.splitext(filename)[0] + '.mp4'
+            try:
+                with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                    info = ydl.extract_info(url, download=True)
+            except Exception as e_first:
+                # Stage 1: Try without cookiefile (fixes YouTube cookie-induced 403 / format errors)
+                if 'cookiefile' in ydl_opts:
+                    ydl_opts_nocookie = dict(ydl_opts)
+                    ydl_opts_nocookie.pop('cookiefile', None)
+                    try:
+                        with yt_dlp.YoutubeDL(ydl_opts_nocookie) as ydl:
+                            info = ydl.extract_info(url, download=True)
+                    except Exception:
+                        pass
+
+                # Stage 2: Try with format = 'best'
+                if not info:
+                    ydl_opts_best = dict(ydl_opts)
+                    ydl_opts_best.pop('cookiefile', None)
+                    ydl_opts_best['format'] = 'best'
+                    with yt_dlp.YoutubeDL(ydl_opts_best) as ydl:
+                        info = ydl.extract_info(url, download=True)
+
+            if info:
+                raw_fn = ydl.prepare_filename(info)
+                stem = os.path.splitext(raw_fn)[0]
+                actual_file = None
+                for candidate in [raw_fn, f"{stem}.mp4", f"{stem}.webm", f"{stem}.mkv", f"{stem}.mp3"]:
+                    if os.path.exists(candidate):
+                        actual_file = candidate
+                        break
+                if not actual_file:
+                    matches = list(DOWNLOADS_DIR.glob(f"download_{unique_id}_*"))
+                    if matches:
+                        actual_file = str(matches[0])
+                filename = actual_file if actual_file else raw_fn
         finally:
             if temp_cookie_file and os.path.exists(temp_cookie_file):
                 try:
@@ -349,8 +378,8 @@ def process_download():
             orig_sub = process_all_subtitles(filename, title_text=clean_title, duration_sec=info.get('duration', 15), url=url)
             add_log_to_history(task_id, "Đã trích xuất phụ đề Gốc thành công.")
 
-        # Subfolder download name for Chrome: e.g. "BV1KS4y1i7zL/Title.mp4"
-        download_name = f"{folder_name}/{clean_title}.{ext}"
+        actual_ext = os.path.splitext(filename)[1].lstrip('.') or ext
+        download_name = f"{folder_name}/{clean_title}.{actual_ext}"
 
         if os.path.exists(filename):
             file_basename = os.path.basename(filename)

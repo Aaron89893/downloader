@@ -1,5 +1,611 @@
 [
   {
+    "id": "task_1785917684_0de0f5",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "mp3",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:14:44",
+    "timestamp_raw": 1785917684.2988663,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917684_0de0f5_jesGbeX3W10.mp3?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp3",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp3",
+        "type": "video"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:14:44] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:14:44] Khởi tạo tác vụ tải video (mp3) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:14:44] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:14:44] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:15:35] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:15:35] ✅ Thành công 100%! Đã tạo gói 1 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917673_0a224d",
+    "url": "https://www.douyin.com/video/7661287647008009658",
+    "title": "光遇下半年所有节日零氪物品。#光遇#我和光遇的七周年记忆#光遇七周年#光遇每颗星都值得被看见 #光遇追光计划",
+    "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/oI5slBwAPI7diBNAHBiKBIySaMv7aCbIHgiXJ~tplv-dy-360p.jpeg?lk3s=138a59ce&x-expires=1787126400&x-signature=gcYEincND2PC0kj5Cf8CNExaWtk%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=origin_cover&biz_tag=aweme_video&l=20260805161433B55AB088C0E661CA50AA",
+    "platform": "TikTok/Douyin",
+    "quality": "mp3",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:14:33",
+    "timestamp_raw": 1785917673.8383095,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917673_0a224d_7661287647008009658.mp3?filename=7661287647008009658/%E5%85%89%E9%81%87%E4%B8%8B%E5%8D%8A%E5%B9%B4%E6%89%80%E6%9C%89%E8%8A%82%E6%97%A5%E9%9B%B6%E6%B0%AA%E7%89%A9%E5%93%81%E3%80%82%23%E5%85%89%E9%81%87%23%E6%88%91%E5%92%8C%E5%85%89%E9%81%87%E7%9A%84%E4%B8%83%E5%91%A8%E5%B9%B4%E8%AE%B0%E5%BF%86%23%E5%85%89%E9%81%87%E4%B8%83%E5%91%A8%E5%B9%B4%23%E5%85%89%E9%81%87%E6%AF%8F%E9%A2%97%E6%98%9F%E9%83%BD%E5%80%BC%E5%BE%97%E8%A2%AB%E7%9C%8B%E8%A7%81%20%23%E5%85%89%E9%81%87%E8%BF%BD%E5%85%89%E8%AE%A1%E5%88%92.mp3",
+        "filename": "7661287647008009658/光遇下半年所有节日零氪物品。#光遇#我和光遇的七周年记忆#光遇七周年#光遇每颗星都值得被看见 #光遇追光计划.mp3",
+        "type": "video"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:14:33] Bắt đầu xử lý tải URL: https://www.douyin.com/video/7661287647008009658",
+      "[2026-08-05 15:14:33] Khởi tạo tác vụ tải video (mp3) từ: https://www.douyin.com/video/7661287647008009658",
+      "[2026-08-05 15:14:33] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:14:34] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:14:43] Tải stream hoàn tất. Đã trích xuất tiêu đề: '光遇下半年所有节日零氪物品。#光遇#我和光遇的七周年记忆#光遇七周年#光遇每颗星都值得被看见 #光遇追光计划'",
+      "[2026-08-05 15:14:43] ✅ Thành công 100%! Đã tạo gói 1 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917663_d77a91",
+    "url": "https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+    "title": "4K_冥龙原来长这样_看完你还害怕吗",
+    "thumbnail": "http://i0.hdslb.com/bfs/archive/bd8f69c17c9fccca457a5df384f9af528c02689e.jpg",
+    "platform": "Bilibili",
+    "quality": "mp3",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:14:23",
+    "timestamp_raw": 1785917663.2023396,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917663_d77a91_BV1KS4y1i7zL.mp3?filename=BV1KS4y1i7zL/4K_%E5%86%A5%E9%BE%99%E5%8E%9F%E6%9D%A5%E9%95%BF%E8%BF%99%E6%A0%B7_%E7%9C%8B%E5%AE%8C%E4%BD%A0%E8%BF%98%E5%AE%B3%E6%80%95%E5%90%97.mp3",
+        "filename": "BV1KS4y1i7zL/4K_冥龙原来长这样_看完你还害怕吗.mp3",
+        "type": "video"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:14:23] Bắt đầu xử lý tải URL: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 15:14:23] Khởi tạo tác vụ tải video (mp3) từ: https://www.bilibili.com/video/BV1KS4y1i7zL/?spm_id_from=333.337.search-card.all.click",
+      "[2026-08-05 15:14:23] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:14:23] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:14:32] Tải stream hoàn tất. Đã trích xuất tiêu đề: '4K_冥龙原来长这样_看完你还害怕吗'",
+      "[2026-08-05 15:14:32] ✅ Thành công 100%! Đã tạo gói 1 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917518_5d761f",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:11:58",
+    "timestamp_raw": 1785917518.212548,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917518_5d761f_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917518_5d761f_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:11:58] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:11:58] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:11:58] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:11:58] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:12:13] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:12:13] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:12:13] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:12:13] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917374_97733b",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "mp3",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:09:34",
+    "timestamp_raw": 1785917374.9696257,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917374_97733b_jesGbeX3W10.mp3?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp3",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp3",
+        "type": "video"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:09:34] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:09:35] Khởi tạo tác vụ tải video (mp3) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:09:35] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:09:35] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:10:05] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:10:05] ✅ Thành công 100%! Đã tạo gói 1 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917366_e33d4d",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "480p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:09:26",
+    "timestamp_raw": 1785917366.6807954,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917366_e33d4d_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917366_e33d4d_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:09:26] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:09:26] Khởi tạo tác vụ tải video (480p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:09:26] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:09:26] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:09:34] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:09:34] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:09:34] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:09:34] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917360_828d96",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "720p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:09:21",
+    "timestamp_raw": 1785917361.102134,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917360_828d96_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917360_828d96_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:09:21] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:09:21] Khởi tạo tác vụ tải video (720p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:09:21] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:09:21] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:09:26] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:09:26] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:09:26] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:09:26] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917349_c17368",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:09:09",
+    "timestamp_raw": 1785917349.4581969,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917349_c17368_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917349_c17368_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:09:09] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:09:09] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:09:09] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:09:09] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:09:20] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:09:20] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:09:20] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:09:20] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917337_cece02",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:08:57",
+    "timestamp_raw": 1785917337.7811918,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917337_cece02_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917337_cece02_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:08:57] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:08:57] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:08:57] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:08:57] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:09:03] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:09:03] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:09:03] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:09:03] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917198_4f6ee3",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "Đang tải...",
+    "thumbnail": "",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "FAILED",
+    "timestamp": "2026-08-05 15:06:38",
+    "timestamp_raw": 1785917198.1471794,
+    "files": [],
+    "logs": [
+      "[2026-08-05 15:06:38] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:06:38] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:06:38] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:06:38] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:06:40] ❌ Lỗi: ERROR: [youtube] jesGbeX3W10: Requested format is not available. Use --list-formats for a list of available formats"
+    ],
+    "error": "ERROR: [youtube] jesGbeX3W10: Requested format is not available. Use --list-formats for a list of available formats"
+  },
+  {
+    "id": "task_1785917085_75bcbc",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "mp3",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:04:45",
+    "timestamp_raw": 1785917085.6970172,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917085_75bcbc_jesGbeX3W10.mp3?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp3",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp3",
+        "type": "video"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:04:45] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:04:45] Khởi tạo tác vụ tải video (mp3) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:04:45] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:04:45] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:05:18] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:05:18] ✅ Thành công 100%! Đã tạo gói 1 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917075_8639fa",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "480p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:04:35",
+    "timestamp_raw": 1785917075.4876738,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917075_8639fa_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917075_8639fa_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:04:35] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:04:35] Khởi tạo tác vụ tải video (480p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:04:35] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:04:35] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:04:45] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:04:45] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:04:45] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:04:45] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917066_b85796",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "720p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:04:26",
+    "timestamp_raw": 1785917066.763346,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917066_b85796_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917066_b85796_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:04:26] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:04:26] Khởi tạo tác vụ tải video (720p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:04:26] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:04:26] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:04:35] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:04:35] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:04:35] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:04:35] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917048_c77fca",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:04:08",
+    "timestamp_raw": 1785917048.8646984,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917048_c77fca_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917048_c77fca_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:04:08] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:04:08] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:04:08] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:04:08] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:04:26] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:04:26] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:04:26] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:04:26] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785917039_a3ef24",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:03:59",
+    "timestamp_raw": 1785917039.5322437,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785917039_a3ef24_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785917039_a3ef24_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:03:59] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:03:59] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:03:59] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:03:59] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:04:04] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:04:04] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:04:04] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:04:04] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785916917_cd790e",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "Đang tải...",
+    "thumbnail": "",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "FAILED",
+    "timestamp": "2026-08-05 15:01:58",
+    "timestamp_raw": 1785916918.0473132,
+    "files": [],
+    "logs": [
+      "[2026-08-05 15:01:58] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:01:58] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:01:58] Đã nạp cookie xác thực từ trình duyệt active tab.",
+      "[2026-08-05 15:01:58] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:02:01] ❌ Lỗi: ERROR: [youtube] jesGbeX3W10: Requested format is not available. Use --list-formats for a list of available formats"
+    ],
+    "error": "ERROR: [youtube] jesGbeX3W10: Requested format is not available. Use --list-formats for a list of available formats"
+  },
+  {
+    "id": "task_1785916881_73bd28",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "mp3",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:01:21",
+    "timestamp_raw": 1785916881.077971,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785916881_73bd28_jesGbeX3W10.mp3?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp3",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp3",
+        "type": "video"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:01:21] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:01:21] Khởi tạo tác vụ tải video (mp3) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:01:21] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:01:45] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:01:45] ✅ Thành công 100%! Đã tạo gói 1 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785916869_bc0e77",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "480p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:01:09",
+    "timestamp_raw": 1785916869.0707018,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785916869_bc0e77_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785916869_bc0e77_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:01:09] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:01:09] Khởi tạo tác vụ tải video (480p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:01:09] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:01:20] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:01:20] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:01:20] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:01:21] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785916862_02a176",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "720p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:01:02",
+    "timestamp_raw": 1785916862.2948961,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785916862_02a176_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785916862_02a176_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:01:02] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:01:02] Khởi tạo tác vụ tải video (720p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:01:02] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:01:08] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:01:08] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:01:08] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:01:09] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
+    "id": "task_1785916851_193dbf",
+    "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
+    "title": "[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...",
+    "thumbnail": "https://i.ytimg.com/vi/jesGbeX3W10/maxresdefault.jpg",
+    "platform": "YouTube",
+    "quality": "1080p",
+    "status": "COMPLETED",
+    "timestamp": "2026-08-05 15:00:51",
+    "timestamp_raw": 1785916851.8076632,
+    "files": [
+      {
+        "url": "/api/get_file/download_1785916851_193dbf_jesGbeX3W10.mp4?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....mp4",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....mp4",
+        "type": "video"
+      },
+      {
+        "url": "/api/get_file/download_1785916851_193dbf_jesGbeX3W10.orig.srt?filename=jesGbeX3W10/%5BPlaylist%5D%20Nh%E1%BA%A1c%20H%E1%BB%89%20Trung%20Qu%E1%BB%91c%20-%20Tam%20B%C3%A1i%20H%E1%BB%93ng%20Tr%E1%BA%A7n%20L%C6%B0%C6%A1ng%2C%20....orig.srt",
+        "filename": "jesGbeX3W10/[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ....orig.srt",
+        "type": "orig_sub"
+      }
+    ],
+    "logs": [
+      "[2026-08-05 15:00:51] Bắt đầu xử lý tải URL: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:00:51] Khởi tạo tác vụ tải video (1080p) từ: https://www.youtube.com/watch?v=jesGbeX3W10",
+      "[2026-08-05 15:00:51] Đang kết nối tải luồng Video HD & Audio bằng yt-dlp...",
+      "[2026-08-05 15:01:02] Tải stream hoàn tất. Đã trích xuất tiêu đề: '[Playlist] Nhạc Hỉ Trung Quốc - Tam Bái Hồng Trần Lương, ...'",
+      "[2026-08-05 15:01:02] Đang xử lý phụ đề Gốc...",
+      "[2026-08-05 15:01:02] Đã trích xuất phụ đề Gốc thành công.",
+      "[2026-08-05 15:01:02] ✅ Thành công 100%! Đã tạo gói 2 file hoàn chỉnh (Video + Sub Gốc)."
+    ],
+    "error": null
+  },
+  {
     "id": "task_1785916743_a67261",
     "url": "https://www.youtube.com/watch?v=jesGbeX3W10",
     "title": "Đang tải...",
